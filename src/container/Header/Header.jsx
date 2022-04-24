@@ -13,8 +13,8 @@ const Header = () => (
       </video>
     </div>
     <div className="app__header-h1">
-      <div className="first-word">
-        The Most
+      <div className="first-word headtext__cormorant">
+        <h1>The Most</h1>
         <div className="animated-words">
           <span className="animated-word">Agile</span>
           <span className="animated-word">Trusted</span>
@@ -25,16 +25,15 @@ const Header = () => (
         </div>
       </div>
 
-      <div className="last-word">Waste Water Treatment Plant</div>
-      <p className="p__opensans p_details" style={{ margin: '2rem 0' }}>
+      <div className="last-word headtext__cormorant">
+        <p>Waste Water Treatment Plant</p>
+      </div>
+      <p className="p__opensans p_details">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.
       </p>
-      <button type="button" className="custom__button">
-        Explore Menu
-      </button>
     </div>
   </div>
 );
