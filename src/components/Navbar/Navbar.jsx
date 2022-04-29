@@ -12,12 +12,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app logo" />
+        <img src={images.wahana} alt="app logo" />
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans">
-          <a href="#home">Home</a>
-        </li>
         <li className="p__opensans">
           <a href="#about">About</a>
         </li>
@@ -28,16 +25,12 @@ const Navbar = () => {
           <a href="#awards">Awards</a>
         </li>
         <li className="p__opensans">
-          <a href="#contact">Contact</a>
+          <a href="#"></a>
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
-          Log In / Register
-        </a>
-        <div />
-        <a href="/" className="p__opensans">
-          Book Table
+        <a href="#contact" className="p__opensans">
+          Contact
         </a>
       </div>
       <div className="app__navbar-smallscreen">
